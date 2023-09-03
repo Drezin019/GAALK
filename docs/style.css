@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(32, 30, 30)
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu ul li a:hover{
+    color: peru;
+}
+
+h2{
+    color: white;
+}
+
+section header h2{
+    text-align: center;
+}
+
+
