@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Navegar</a></li>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="awards.html">Premiações</a></li>
+                <li>Buscar <input type="search"></li>
+                <li><a href="login.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Votação do Oscar 2023</h1>
+    <p>Preencha com suas informações</p>
+    <fieldset>
+        <div>
+            <label for="">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label for="">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+    </fieldset>
+
+    <div>
+        <label for="">Email</label>
+        <input type="text" name="email" id="email">
+    </div>
+
+    <br>
+    <p>Escolha o gênero desejado para votar</p>
+    <br>
+
+    <div>
+        <label for="genero">Gênero:</label>
+        <select name="genero" id="genero">
+            <option selected disabled value="">Selecione</option>
+            <option value="">Ação</option>
+            <option value="">Aventura</option>
+            <option value="">Comédia</option>
+            <option value="">Ficção Científica</option>
+            <option value="">Romance</option>
+            <option value="">Terror</option>
+        </select>
+    </div>
+    
+</body>
+</html>
