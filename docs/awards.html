@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awards</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="awards.css">
 </head>
 <body>
 
@@ -21,41 +21,44 @@
         </nav>
     </header>
 
-    <h1>Votação do Oscar 2023</h1>
-    <p>Preencha com suas informações</p>
-    <fieldset>
-        <div>
-            <label for="">Nome</label>
-            <input type="text" name="nome" id="nome">
-        </div>
-
-        <div>
-            <label for="">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome">
-        </div>
-    </fieldset>
-
-    <div>
-        <label for="">Email</label>
-        <input type="text" name="email" id="email">
-    </div>
-
-    <br>
-    <p>Escolha o gênero desejado para votar</p>
+    <h1 id="titulo">Oscar 2023</h1>
+    <p id="subtitulo">Faça a sua lista</p>
     <br>
 
-    <div>
-        <label for="genero">Gênero:</label>
-        <select name="genero" id="genero">
-            <option selected disabled value="">Selecione</option>
-            <option value="">Ação</option>
-            <option value="">Aventura</option>
-            <option value="">Comédia</option>
-            <option value="">Ficção Científica</option>
-            <option value="">Romance</option>
-            <option value="">Terror</option>
-        </select>
-    </div>
-    
+    <form action="awards.php">
+        <fieldset class="grupo">
+            <p><strong>Informações pessoais:</strong></p>
+
+            <div class="campo">
+                <p><label for="nome">Nome</label></p>
+                <input type="text" name="nome" id="nome" required>
+                <p><label for="sobrenome">Sobrenome</label></p>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                <p><label for="email">Email</label></p>
+                <input type="text" name="email" id="email" required>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="grupo">
+            <p><strong>Escolha o gênero desejado:</strong></p>
+
+            <div class="campo">
+                <label for="genero"></label>
+                <select name="genero" id="genero">
+                <option selected disabled value="">Selecione</option>
+                <option value="">Ação</option>
+                <option value="">Aventura</option>
+                <option value="">Comédia</option>
+                <option value="">Ficção Científica</option>
+                <option value="">Romance</option>
+                <option value="">Terror</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <br>
+        <button class="botao">Concluir</button>
+    </form>
+
 </body>
 </html>
