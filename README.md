@@ -1,7 +1,7 @@
 # GAALK
 
 - ## Descrição do projeto:
-Queremos criar um site para catálogo de filmes do ano com algumas opções de interação com o usuário como criar sua votação do oscar, para que os usuários possam ter uma ferramenta filtrada e que ajude-os a se organizar e expor opiniões.
+Queremos criar um site para catálogo de filmes do ano com algumas opções de interação com o usuário, para que os usuários possam ter uma ferramenta filtrada e que ajude-os a se organizar e expor opiniões.
 
 - ## Funcionalidades:
 O projeto atualmente conta somente com a página inicial em desenvolvimento, que servirá para mostra algumas opções de filmes para o usuário e também o menu de navegação.
